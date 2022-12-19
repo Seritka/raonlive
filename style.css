@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+
+.menubar {
+  left: 0px;
+  display: inline-flex;
+  overflow: hidden;
+  background-color: wheat;
+  padding: 0px;
+  margin: 0px;
+
+  border-width: 1px;
+  border-bottom-right-radius: 50px;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+}
+
+#button1 {
+  display: inline-block;
+  padding: 5px;
+  margin: 20px;
+  height: 50px;
+  width: 50px;
+}
+
+.preview {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #222;
+}
+video {
+  max-width: 400px;
+  height: auto;
+  transform: scale(-1, 1);
+}
+.preview canvas {
+  transform: scale(-1, 1);
+}
+canvas {
+  display: inline;
+}
+.guides {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 500px) {
+  video {
+      max-width: 160px;
+  }
+}

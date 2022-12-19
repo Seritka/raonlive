@@ -1,0 +1,20 @@
+{
+  "name": "raonlive",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0"
+  },
+  "dependencies": {
+    "@mediapipe/camera_utils": "^0.3.1640029074",
+    "@mediapipe/holistic": "^0.5.1635989137",
+    "html2canvas": "^1.4.1",
+    "kalidokit": "^1.1.5"
+  }
+}
